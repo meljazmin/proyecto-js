@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores</title>
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link id="theme" rel="stylesheet" href="css/blue.css"/>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--Sliders-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--Moment JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+    <!--Script-->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="selectorTheme">
+        <div id="green"></div>
+        <div id="red"></div>
+        <div id="blue"></div>
+    </div>
+    <section id="global">
+        <!--Cabecera-->
+        <header>
+            <div id="logo">
+                Flores para decorar
+            </div>
+
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="./about.html">Sobre mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <!--Slider-->
+        <div id="slider">
+            <div class="bxslider">
+                <div><img src="images/fondo-floral-acuarela_23-2148479247.jpg" title="Muchas flores" width="100%"></div>
+                <div><img src="images/depositphotos_81286028-stock-photo-flower-background-a-background-from.jpg"
+                        title="Fondo floral" width="100%"></div>
+            </div>
+        </div>
+        <!--Contenido-->
+        <section id="content">
+            <div id="articulos">
+                <!--Cargar post desde json-->
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4>¿Quién soy?</h4>
+                    <img src="images/depositphotos_81286028-stock-photo-flower-background-a-background-from.jpg" />
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form id="formulario">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="formName"/>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="formEmail"/>
+
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="formPassword"/>
+                        <input type="submit" value="Entrar" class="boton" />
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+
+    </section>
+    <footer>Flores para decorar
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+
+</html>
